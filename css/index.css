@@ -284,11 +284,37 @@ footer p.copyright {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+
+    header {
+        height: 75rem;
+    }
     
+    h1 a {
+        font-size: 4.8rem;
+       
+    }
+
+    .container {
+        height: 60%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    div .button-container {
+        justify-content: center;
+    }
 
     /* gallery section */
     .gallery {
-        height: auto;
+        height: 400vh;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: 40vh;
+        padding-bottom: 5%;
     }
     
     /* about us section */
@@ -299,11 +325,19 @@ footer p.copyright {
     
     .about h2 {
         width: 100%;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
     
     .about-container .text {
         width: 85%;
+    }
+
+    .about-container p {
+        font-size: 2.5rem;
+    }
+
+    .spacer {
+        height: 20vh;
     }
     
     /* contact us section */
@@ -314,6 +348,7 @@ footer p.copyright {
     .info {
         flex-wrap: wrap;
     }
+
     
     .address {
         width: 100%;
@@ -332,7 +367,34 @@ footer p.copyright {
     /* footer section */
     footer {
         height: auto;
+        text-align: center;
         padding-top: 2.5vh;
         font-size: 2.5rem;
     }
+
+    .email {
+        text-align: center;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .email p {
+        margin: 6.5%;
+    }
+
+    .email form {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 2vh;
+    }
+
+    footer p.copyright {
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+}
     
