@@ -260,8 +260,8 @@ footer p.copyright {
         font-size: 4rem;
         padding-left: 15%;
         padding-right: 15%;
-       
     }
+
     .header-title {
         width: 75%;
         margin: 0 auto;
@@ -288,13 +288,18 @@ footer p.copyright {
     /* menu */
     .menu {
         background-image: none;
+        background-color: rgb(225, 239, 230);
         /* background-color */
     }
 
     .menu h1 {
         text-align: center;
-        font-size: 5rem;
-
+        font-size: 6rem;
+        text-decoration-line: underline;
+        text-decoration-thickness: 1rem;
+        color: rgb(0, 4, 17);
+        background-color:  rgb(225, 239, 230);
+        padding-top: 15%;
     }
 
     .menu h2 {
@@ -302,11 +307,20 @@ footer p.copyright {
         width: 80%;
         text-align: center;
         height: 20vh;
+        color: rgb(0, 4, 17);
+        border: 2px black; 
+    }
+
+    .menu-section span{
+        display:inline-block;
+        text-align: center;
+        border:1px black; 
     }
 
     .menu-container {
         padding: 0%;
         justify-content: center;
+        background-color:  rgb(225, 239, 230);
     }
 
     .menu-section {
@@ -323,6 +337,7 @@ footer p.copyright {
         height: auto;
         text-align: 0;
         padding-right: 0vh;
+        color: rgb(0, 4, 17);
     }
 
     .menu-item {
@@ -335,7 +350,7 @@ footer p.copyright {
     .menu-item p {
         text-align: center;
         padding-top: 0vh;
-        
+        color: rgb(0, 4, 17);
     }
 
     .menu-item p:first-of-type {
@@ -345,6 +360,7 @@ footer p.copyright {
 
     .menu-item h4 {
         text-align: center;
+        color: rgb(0, 4, 17);
     }
 
     .menu-item h4:first-of-type {
