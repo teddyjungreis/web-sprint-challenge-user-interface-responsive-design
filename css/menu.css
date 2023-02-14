@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -266,11 +266,11 @@ footer p.copyright {
         width: 75%;
         margin: 0 auto;
         text-align: center;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .container {
-        height: 68vh;
+        height: 66vh;
     }
 
     nav {
