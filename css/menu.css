@@ -308,19 +308,20 @@ footer p.copyright {
         text-align: center;
         height: 20vh;
         color: rgb(0, 4, 17);
-        border: 2px black; 
+        border: 3px solid black;
     }
 
-    .menu-section span{
-        text-align: center;
-        border:1px black; 
-    }
+
 
     .menu-container {
         padding: 0%;
         justify-content: center;
         background-color:  rgb(225, 239, 230);
     }
+
+    /* .menu-container h2 {
+        border: 2px black;
+    } */
 
     .menu-section {
         display: flex;
@@ -364,6 +365,11 @@ footer p.copyright {
         border-bottom: none;
     }
 
+    .menu-item .extra-no-underline {
+        border-bottom: none;
+        font-style: italic;
+
+    }
 
 
     
