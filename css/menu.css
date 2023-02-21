@@ -344,13 +344,14 @@ footer p.copyright {
         padding-bottom: 2%;
         padding-top: 0vh;
         height: auto;
-        border-bottom: 0.5rem solid;
+        /* border-bottom: 0.5rem solid; */
     }
 
     .menu-item p {
         text-align: center;
         padding-top: 0vh;
         color: rgb(0, 4, 17);
+        border-bottom: 0.5rem solid;
     }
 
     .menu-item p:first-of-type {
@@ -359,9 +360,21 @@ footer p.copyright {
         
         }
 
-    /* .menu-item p:last-of-type {
-        
-    } */
+    .menu-item .no-underline {
+        border-bottom: none;
+    }
+
+
+
+    
+
+    /* .menu-item:nth-of-type(5) {
+            border: none;
+        } 
+
+    .menu-item:nth-of-type(8) {
+            border: none;
+        }  */
 
     .menu-item h4 {
         text-align: center;
